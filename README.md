@@ -19,7 +19,7 @@ Add either the jquery.stopframeanimation.js or jquery.stopframeanimation.min.js 
 <script type="text/javascript" src="jquery.stopframeanimation.min.js"></script>
 ```
 
-Add all animation's frames in a container element into your HTML document (it is suggested to assign "display: none;" through CSS on the frames so they won't be visible until the plugin is called)
+Add all animation's frames in a container element into your HTML document (it is suggested to assign "display: none;" through CSS on the frames so they won't be visible until the plugin is actually called)
 
 ```html
 <img src="frames/frame1.svg" class="animation_frame" alt="Animation frame" onerror="$(this).hide();" style="display: none;">
@@ -27,8 +27,9 @@ Add all animation's frames in a container element into your HTML document (it is
 <img src="frames/frame3.svg" class="animation_frame" alt="Animation frame" onerror="$(this).hide();" style="display: none;">
 ```
 
-Then call the plugin for the container element in order to initialise start the animation
+Then call the plugin for the container element in order to initialise and start the animation
 
+```javascript
 // attach to an element
 $(".container").stopframeanimation();
 ```
@@ -37,12 +38,13 @@ You can set your own options when you call the plugin for first time but you can
 
 ```javascript
 $(".container").stopframeanimation( {
-    interval: 1000 // the time each frame is shown [default: 15]
+    interval: 30 // the time each frame is shown [default: 15]
 });
 ```
 
 And finally that's how you unattach the script
 
+```javascript
 // unattach from an element
 $("#element").stopframeanimation("destroy");
 ```
