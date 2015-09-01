@@ -1,0 +1,36 @@
+{
+  "name": "jquery.stopframeanimation",
+  "version": "1.0.0",
+  "title": "jQuery Stop Frame Animation plugin",
+  "author": {
+    "name": "Alexandros Filos Kaparelos",
+    "url": "http://www.afklondon.co.uk/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
+  "description": "The simplest yet effective jQuery stop frame animation plugin",
+  "keywords": [
+    "animation",
+    "stop",
+    "frame",
+    "simple",
+    "jquery"
+  ],
+  "homepage": "https://github.com/afklondon/jquery.stopframeanimation",
+  "docs": "https://github.com/afklondon/jquery.stopframeanimation/blob/master/README.md",
+  "demo": "https://github.com/afklondon/jquery.stopframeanimation",
+  "bugs": "https://github.com/afklondon/jquery.stopframeanimation/issues",
+  "maintainers": [
+    {
+      "name": "Alexandros Filos Kaparelos",
+      "url": "http://www.afklondon.co.uk/"
+    }
+  ]
+}
