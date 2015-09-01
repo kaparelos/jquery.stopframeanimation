@@ -46,7 +46,7 @@ And finally that's how you unattach the script
 
 ```javascript
 // unattach from an element
-$("#element").stopframeanimation("destroy");
+$(".container").stopframeanimation("destroy");
 ```
 
 Dependencies
