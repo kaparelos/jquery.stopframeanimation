@@ -1,12 +1,12 @@
 /*
 
- jQuery Stop Frame Animation plugin 1.0
- The simplest yet effective jQuery stop frame animation plugin
+  jQuery Stop Frame Animation plugin 1.0.1
+  The simplest yet effective jQuery stop frame animation plugin
  
- Copyright (C) 2015 AFK - Alexandros Filos Kaparelos
- Available via the MIT license
+  https://github.com/readyforaliens/jquery.stopframeanimation
 
- https://github.com/afklondon/jquery.stopframeanimation for details
+  Available via the MIT license
+  by Alexandros Filos Kaparelos (readyforaliens)
 
 */
 
@@ -20,11 +20,11 @@
     var element = $(this);
     var length = element.length;
     var frame = 0;
-    element.hide(); // reset frame states    
+    element.hide(); // reset frame visibility state
 
-    // if destroy requested
+    // when "destroy" requested by opts
     if (options === "destroy") {
-      window.clearTimeout(timeout); // clear timeout
+      window.clearTimeout(timeout);
       timeout = undefined;
       return;
     }
@@ -34,13 +34,13 @@
       interval: 15
     }, options);
 
-    window.clearTimeout(timeout); // clear timeout
-    updateAnimation(); // start animation
+    window.clearTimeout(timeout);
+    updateAnimation(); // starts the animation
 
     function updateAnimation() {
 
       if (frame == 0) {
-        element.eq(length - 1).hide(); // needed when animation resets
+        element.eq(length - 1).hide(); // needed for animation reset
         element.eq(frame).show();
       } else {
         element.eq(frame - 1).hide();
@@ -50,7 +50,7 @@
       frame++;
       if (frame == length) frame = 0;
 
-      timeout = window.setTimeout(updateAnimation, settings.interval); // set a new timeout
+      timeout = window.setTimeout(updateAnimation, settings.interval); // sets a new timeout
 
     }
 
