@@ -1,10 +1,10 @@
 {
   "name": "jquery.stopframeanimation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "jQuery Stop Frame Animation plugin",
   "author": {
-    "name": "Alexandros Filos Kaparelos",
-    "url": "http://www.afklondon.co.uk/"
+    "name": "Alexandros Filos Kaparelos (readyforaliens)",
+    "url": "http://github.com/readyforaliens/"
   },
   "licenses": [
     {
@@ -23,14 +23,14 @@
     "simple",
     "jquery"
   ],
-  "homepage": "https://github.com/afklondon/jquery.stopframeanimation",
-  "docs": "https://github.com/afklondon/jquery.stopframeanimation/blob/master/README.md",
-  "demo": "https://github.com/afklondon/jquery.stopframeanimation",
-  "bugs": "https://github.com/afklondon/jquery.stopframeanimation/issues",
+  "homepage": "https://github.com/readyforaliens/jquery.stopframeanimation",
+  "docs": "https://github.com/readyforaliens/jquery.stopframeanimation/blob/master/README.md",
+  "demo": "https://github.com/readyforaliens/jquery.stopframeanimation",
+  "bugs": "https://github.com/readyforaliens/jquery.stopframeanimation/issues",
   "maintainers": [
     {
-      "name": "Alexandros Filos Kaparelos",
-      "url": "http://www.afklondon.co.uk/"
+      "name": "Alexandros Filos Kaparelos (readyforaliens)",
+      "url": "http://github.com/readyforaliens/"
     }
   ]
 }
